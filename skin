@@ -1,0 +1,131 @@
+body{
+  color: white;
+     font-family: 'Oswald', sans-serif;
+}
+/*encabesados */
+#logomaya{
+  position: relative;
+  top: 2px;
+  left: 0px;
+}
+
+nav a{
+  transition: color 0.3s ease;
+  text-decoration: none;
+    color: black;
+  margin: 0px 
+}
+
+nav a:hover{
+  color: rgb(93, 173, 226)
+}
+
+
+
+.registro{
+  position: absolute;
+float: right;
+right: 20%;
+  top: 10px;
+    border-style:solid;
+  background-color:white;
+  border-radius: 45px;
+     padding-top:10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.inicia{
+  position: absolute;
+ float: right;
+  top: 10px;
+  right: 10%;
+   border-style:solid;
+  background-color:white;
+  border-radius: 45px;
+     padding-top:10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#encabesado{
+    word-spacing: 45px;
+}
+
+/*header*/
+
+header{
+  text-align: center;
+    
+   background-color: rgb(59 129 77);
+}
+
+#aprende{
+  text-decoration: underline;
+color: white;
+}
+
+/*Articulos*/
+
+#roja1{
+  background-color:rgb(229 52 82);
+  float: right;
+  top:30%;
+   width: 50%;
+   height: 444px;
+  text-align: center;
+}
+
+#roja2{
+   background-color:rgb(229 52 82);
+   width: 50%;
+   height: 444px;
+  text-align: center;
+}
+
+#alebrije2{
+  float: right;
+  top:70px;
+}
+
+/*footer*/
+
+footer{
+   border-top-style: solid;
+  border-color: black;
+  margin-top: 3%;
+}
+
+
+footer nav{
+ word-spacing: 20px;
+}
+
+#copy{
+  color:black;
+}
+
+/*botones*/
+
+
+
+
+.pedido{
+  transition: box-shadow 0.3s ease;
+  text-decoration: none;
+  border-style: solid;
+  border-radius: 45px;
+ border-color: white;
+  color:white;
+ padding-top:10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.pedido:hover{
+box-shadow: 0 0.1rem 0.4rem;
+}
